@@ -6,7 +6,9 @@ class Board extends Component {
   render() {
     return (
       <div>
-        Soy el tablero y tengo un <Square />
+        <Square value={this.props.squares[0]} />
+        <Square value={this.props.squares[1]} />
+        <Square value={this.props.squares[2]} />
       </div>
     );
   }

@@ -3,7 +3,11 @@ import './styles.css';
 
 class Square extends Component {
   render() {
-    return <div>Cuadrado</div>;
+    return (
+      <div className="square" onClick={() => alert('soy un cuadrado')}>
+        {this.props.value}
+      </div>
+    );
   }
 }
 
