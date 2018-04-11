@@ -4,9 +4,9 @@ import './styles.css';
 class Square extends Component {
   render() {
     return (
-      <div className="square" onClick={() => alert('soy un cuadrado')}>
+      <span className="square" onClick={() => this.props.cambiarValor() }>
         {this.props.value}
-      </div>
+      </span>
     );
   }
 }
