@@ -1,0 +1,27 @@
+.todo-app {
+  width: 600px;
+  min-height: 180px;
+  border: 1px solid;
+  padding: 20px 101px;
+  margin: 51px auto;
+  border-color: orange;
+  box-shadow: 20px 9px 21px 2px #ff16000f;
+}
+
+.c-moo-logo {
+  background: #ff8d40;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  z-index: 101;
+  /* height: 50px; */
+  color: white;
+  background: whi;
+  width: 28px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.u-fill--white {
+  fill: #fff !important;
+}
