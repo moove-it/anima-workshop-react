@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './styles.css';
 
 class ToDoInput extends Component {
   state = { value: '' };
@@ -23,11 +24,18 @@ class ToDoInput extends Component {
           onKeyPress={this.onAddItem}
         />
         <button
-          className="f6 link dim ph3 pv2 mb2 dib white bg-orange"
+          className="f6 link dim ph3 pv2 mb2 dib white add-button"
           onClick={() => this.props.addItem({ value: this.state.value })}
         >
           <i className="fa fa-plus" />
         </button>
+
+        <div
+          onClick={this.props.orderByDate}
+          className='dim order-button'
+        >
+          Ordenar
+        </div>
       </div>
     );
   }

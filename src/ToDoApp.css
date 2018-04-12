@@ -25,3 +25,33 @@
 .u-fill--white {
   fill: #fff !important;
 }
+
+.filters {
+  display: flex;
+  justify-content: space-around;
+}
+
+.filter-item {
+  color: #767b92;
+  border: 1px solid #ff8d40;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.filter-item:hover {
+  background-color: #ff8d40;
+  color: white;
+  opacity: 0.8;
+}
+
+.filter-item-selected {
+  background-color: #ff8d40;
+  color: white;
+}
+
+.filter-item-selected:hover {
+  background-color: #ff8d40;
+  color: white;
+  opacity: 1;
+}
